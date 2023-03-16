@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Para eliminar un usuario debe acceder a la aplicacion Security Manager e ingresar a la Seccion User y Role Management. Al hacer clic en el componente User, se mostrará la lista de todos los usuarios, donde cada uno de ellos tendrá la opción de ser eliminado, representado con el icono del 'Bote de Basura'.Al hacer clic en el icono mencionado anteriormente, se abrirá un popup donde solicitará la confirmación de la eliminación. Además, tener en cuenta que si un usuario está asignado como performer de un proceso no se podrá eliminar.  " />
+
+           
+             <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EliminarUser.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

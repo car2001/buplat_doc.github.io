@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para que los cambios se guarden correctamente en el contenedor creado, este debe estar activo y para ello se hará clic derecho al CC y se debe seleccionar “Activate”. Comprobamos que se activó correctamente el CC cuando su nombre se marca con color celeste y cuando al ver el detalle del CC podemos observar que el campo “Active” está con un check. 
+            "/>
+            <Text class="text"
+            text="Desde la tabla del CC, se realiza la activación mediante el icono “Active”."/>
+            <Text class="text"
+            text="*Cuando el CC se crea de manera automática por defecto ya se encuentra activo."/>
+           
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/ActivarChange.png" width="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

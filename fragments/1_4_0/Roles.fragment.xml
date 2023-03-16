@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Los roles son una forma de definir diferentes niveles de acceso y permisos para los usuarios. Los roles se pueden utilizar para agrupar a los usuarios en función de sus responsabilidades o funciones laborales, y para definir las actividades y funciones específicas que cada rol puede realizar dentro del sistema. "/>
+              <Text class="text"    
+
+            text="Los roles específicos pueden variar según la organización, pero en general, algunos de los roles comunes son:  "/>
+
+             <core:HTML content='&lt;ul &gt; &lt;li &gt; Administrador: Un rol que tiene acceso completo a todas las funciones y características del sistema, y que puede crear y administrar otros usuarios y roles. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Usuario final: Un rol que tiene acceso limitado al sistema y solo puede realizar ciertas actividades o funciones específicas. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Aprobador: Un rol que tiene la capacidad de aprobar o rechazar solicitudes de cambios en los procesos o tareas. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Analista de negocio: Un rol que tiene la capacidad de diseñar, modelar y crear procesos y flujos de trabajo. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Diseñador de formularios: Un rol que tiene la capacidad de diseñar y personalizar formularios y pantallas de usuario. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+            
+
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

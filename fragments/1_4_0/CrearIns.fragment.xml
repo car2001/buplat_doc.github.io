@@ -1,0 +1,44 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Hay que considerar que, para crear una INS, tenemos que antes haber creado un contador, ya que este será uno de los componentes necesarios para su creación. "/>
+
+             <Text class="text"            
+            text="Para crear una INS debe estar en la aplicación Configuration Manager e ingresar a la sección Reusable Component. Al hacer clic en el componente Instance Numbering Schema, se mostrará la lista de instancias y para crear una nueva instancia se debe hacer clic en el icono “+”, donde se mostrará una pantalla solicitando los siguientes datos: "/>
+
+              <core:HTML content='&lt;ul &gt; &lt;li &gt; Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  Display Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Description(opcional) &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+             <core:HTML content='&lt;ul &gt; &lt;li &gt; Separator(Separador) &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+
+            <Text class="text"            
+            text="Además, se tiene que relacionar con el contador y el separador es un valor fijo que es parte del esquema. "/>
+
+            <Text class="text"            
+            text="Al presionar el icono Save se creará una nueva instancia. Para comprobar que la creación se hizo de manera correcta, debe mostrar el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”.  "/>
+
+            <Text class="text"            
+            text="Por ejemplo, vamos a crear un INS con un valor fijo “Proceso” y lo vamos a relacionar con un contador que iniciará con un valor de 1 e irá incrementando de 10 en 10, entonces nuestro esquema quedaría de la siguiente manera: "/>
+
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; INS de la primera instancia: Proceso-1 &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  INS de la segunda instancia: Proceso-10 &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; INS de la tercera instancia: Proceso-20 &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+
+
+
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearIns.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

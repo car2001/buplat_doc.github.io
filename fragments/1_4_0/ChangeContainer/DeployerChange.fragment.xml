@@ -1,0 +1,30 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Liberar un CC significa colocar todos los contenedores en un paquete de despliegue (DP). Para ello nos ubicamos en Change Container > Open > “Nuestro CC” y al hacer clic derecho seleccionamos la opción de “Release”. "/>
+            <Text class="text"
+            text="Si se quiere liberar en un nuevo DP marcamos la opción (1) “NEW”."/>
+            <Text class="text"
+            text="En Caso contrario se podrá seleccionar un DP ya creado y este se seleccionará desde el combo (2) Deployment Package."/>
+            <Text class="text"
+            text="Al seleccionar New se mostrará un nuevo campo de “Descripción” donde se debe colocar una pequeña descripción del nuevo DP que se creará. Al guardar la liberación se verificará el nuevo DP en un messagestrip y se mostrará el Name del DP que será DP seguido de un correlativo. Por ejemplo, DP1, DP2, DP3, … 
+            Desde la tabla del CC, se realiza la liberación mediante el icono “Release” 
+            "/>
+            <Text class="text"
+            text="*Cuando se libera un CC este se alojará en la carpeta Close de los contenedores."/>
+           
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/DeployerChange1.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/DeployerChange2.png" width="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

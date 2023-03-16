@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Cada aplicación que se muestra en BUPLAT tiene sus funcionalidades, de acuerdo con las configuraciones que se realicen, 
+            Y dependiendo de las necesidades del negocio y sus usuarios.
+            "/>
+
+            <FlexBox width="100%">
+                <Image src="./img/Home.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

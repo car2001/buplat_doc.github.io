@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para poder realizar el cambio del Due Date, previamente se tuvo que activar esta opción a nivel del WIZARD en el paso 5(Ver Activar Allow Due Date)."/>
+            <Text class="text"            
+            text="Cuando un usuario reclame una actividad, en la parte superior derecha se habilitará el icono “Changue Due Date”. Al hacer clic en esta opción se mostrará un popup con la fecha actual del Due Date y se tendrá que ingresar la nueva fecha de término de la actividad. Además de un motivo del cambio, donde este será obligatorio para temas de gobierno de proceso.
+            "/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CambiarDueDate1.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CambiarDueDate2.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

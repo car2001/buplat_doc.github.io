@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="En esta sección se podrá configurar "/>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

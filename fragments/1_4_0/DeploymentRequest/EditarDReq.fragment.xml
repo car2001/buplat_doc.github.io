@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Para actualizar un DR debe ingresar a la carpeta Open y seleccionar un contenedor, esta acción mostrará la pantalla con el detalle y se podrá habilitar el modo edición haciendo clic en la opción Edit. Luego de editar los campos necesarios y guardar los cambios, se verificará que se muestre un modal de confirmación. Además, en la sección del Audit Information se actualizará y mostrará el usuario, fecha y hora de creación."/>
+
+            <Text class="text"
+            text="*Para actualizar un DR desde la tabla se realiza mediante el icono Edit."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EditarDReq.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

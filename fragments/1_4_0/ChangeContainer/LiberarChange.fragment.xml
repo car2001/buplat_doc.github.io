@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="BUPLAT permite liberar un CC. de manera directa a un DR sin necesidad de agregarlos a un DP, esto quizás por ser cambios menores. Para ello, el release tiene la opción “Release into Deployment Request” que al activar se habilita un combo para seleccionar un DR o crear uno nuevo."/>
+            <Text class="text"
+            text="Para ello nos ubicamos en Change Container > Open > “Nuestro CC” y al hacer clic derecho seleccionamos la opción de “Release”. "/>
+            
+            <core:HTML content='&lt;ol class="lista" &gt; 
+                &lt;li &gt; Para activar esta opción, colocamos en Yes la opción Release into Deployment Request. &lt;/li &gt;
+                &lt;li &gt; Si se quiere liberar en un nuevo DR se marca la opción (1) “NEW”.  &lt;/li &gt;
+                &lt;li &gt; Caso contrario se puede seleccionar un DR ya creado y se debe seleccionar desde el combo (2) Deployment Package. &lt;/li &gt;
+                &lt;/ol &gt;'>
+            </core:HTML>
+
+            <Text class="text"
+            text="Al seleccionar New se mostrará un nuevo campo de “Descripción” donde se debe colocar una pequeña descripción del nuevo DR que se creará. Al guardar la liberación se verificará el nuevo DR en un messagestrip y se mostrará el Name del DR que será DR seguido de un correlativo. Por ejemplo, DR1, DR2, DR3, … 
+            Desde la tabla del CC, la liberación se debe realizar al hacer clic en el icono “Release” 
+            "/>
+            
+            <Text class="text"
+            text="*Cuando se libera un CC este se alojará en la carpeta Close de los contenedores "/>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

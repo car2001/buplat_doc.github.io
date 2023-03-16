@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Para actualizar un rol se debe ingresar a la aplicación Security Manager e ingresar a la sección User y Role Management. Al seleccionar el componente Role, mostrará la lista de roles existentes, al seleccionar un rol, mostrará el detalle con la opción Edit (lapicito).   
+            Luego de editar los campos necesarios se procede a guardar los cambios desde la opción Save. Además, se puede verificar que los cambios se realizaron correctamente cuando el sistema muestre un mensaje de confirmación y en la sección Audit Information se actualizará mostrando el usuario, fecha y hora de edición.  "/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Editar.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

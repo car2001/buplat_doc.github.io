@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+
+         <Text class="text"    
+
+            text="Al crear una empresa, automáticamente se crean dos carpetas adicionales: Organizational Unit y Location "/>
+
+            <Text class="text"            
+            text="Se puede agregar una unidad organizacional a la empresa ingresando a la carpeta de ésta y dando clic derecho a la carpeta Organizational Unit, seleccionamos New Organizational Unit, se mostrará una pantalla solicitado los siguientes datos:  "/>
+
+             <core:HTML content='&lt;ul &gt; &lt;li &gt; Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  Display Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Description(opcional) &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+            <Text class="text"    
+
+            text="Para efecto de prueba, como nombre se colocará “Unidad Organizacional DEMO”.   "/>
+
+            <Text class="text"    
+
+            text="Al presionar el icono Save se creará una nueva unidad organizacional. Para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”. Por consiguiente, esta nueva creación, se listará dentro de la carpeta Organizational Unit.  "/>
+            
+
+        <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Organizational.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

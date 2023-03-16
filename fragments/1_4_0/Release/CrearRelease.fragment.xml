@@ -1,0 +1,37 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Cada proyecto puede trabajarse por releases y en BUPLAT podemos configurar ello.
+            "/>
+            <Text class="text"            
+            text="Al seleccionar el proyecto “Gestión de Talento Humano” y desglosarlo se mostrará una carpeta llamada Release que al dar clic derecho y seleccionar la opción de New Release, se mostrará una pantalla solicitando los siguientes datos: 
+            "/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; Name (nombre) &lt;/li &gt;
+                &lt;li &gt; Display name (nombre para mostrar) &lt;/li &gt;
+                &lt;li &gt; Description (Descripción opcional) &lt;/li &gt;
+                &lt;li &gt; Start Day &lt;/li &gt;
+                &lt;li &gt; End Day &lt;/li &gt;
+                &lt;li &gt; State &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearRelease.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="text" 
+            text="El release que será parte del proyecto tendrá como nombre “R2022.01.01”. A continuación, se debe seleccionar las fechas que indicará el tiempo que estará disponible el release. Además, se debe colocar un ID al release y por último se debe seleccionar el estado actual del release (OPEN)."/>
+
+            <Text class="text" 
+            text="Al presionar el icono Save se creará el nuevo release y para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”."/>
+                        
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

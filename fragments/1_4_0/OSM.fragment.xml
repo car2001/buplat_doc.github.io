@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="La Administración de la Estructura Organizacional (OSM) es la aplicación de BUPLAT donde se crean las entidades para representar la estructura organizacional de una empresa. Estas entidades son compañías, unidades organizacionales, posiciones y localidades. "/>
+
+              <Text class="text"    
+
+            text="A continuación, se describen brevemente las entidades que se pueden crear en la OSM:  "/>
+
+             <core:HTML content='&lt;ul &gt; &lt;li &gt; Compañías: Las compañías pueden representar diferentes empresas o divisiones dentro de una empresa. En BUPLAT, las compañías son creadas para permitir a las organizaciones administrar múltiples empresas o divisiones en una sola instancia. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Unidades organizacionales: Las unidades organizacionales pueden representar diferentes áreas o departamentos dentro de una empresa, como finanzas, recursos humanos, producción, ventas, etc. Las unidades organizacionales pueden ser creadas para organizar los procesos de negocio y los usuarios en BUPLAT. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Posiciones: Las posiciones pueden representar los diferentes puestos de trabajo en una empresa, como gerente, supervisor, analista, etc. Las posiciones pueden ser creadas para asignar tareas y roles a los usuarios en BUPLAT. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Localidades: Las localidades pueden representar las diferentes ubicaciones físicas de una empresa, como oficinas, plantas de producción, almacenes, etc. Las localidades pueden ser creadas para organizar los procesos de negocio y los usuarios en BUPLAT. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+            <Text class="text"    
+
+            text="La creación de estas entidades en la OSM permite a los usuarios asignar tareas y roles de manera efectiva, organizar los procesos de negocio y los usuarios, y gestionar la seguridad y el cumplimiento de los procesos de negocio de la organización.  "/>
+            
+
+        <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Osm.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

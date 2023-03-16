@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Para eliminar un DP se tiene que seleccionar el contenedor de la carpeta Open. Al hacer clic derecho al contenedor seleccionado se mostrará la opción de “Delete Deployment Package” al seleccionar esta opción se abrirá un popup donde se solicitará la confirmación para la eliminación del DP, al seleccionar la opción sí, se mostrará un mensaje indicándonos que se realizó el proceso correctamente. "/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EliminarDPack.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

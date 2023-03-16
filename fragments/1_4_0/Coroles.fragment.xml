@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "En BUPLAT los roles compuestos son una forma de definir un grupo de roles que se asignan a un usuario como una unidad única. Un rol compuesto es una combinación de uno o más roles individuales, que se agrupan para formar un rol de nivel superior. " />
+
+            <Text class="text"            
+            text=
+            "Los roles compuestos son útiles cuando existen ciertos conjuntos de roles que se asignan comúnmente juntos, o cuando existen requisitos de acceso complejos que no se pueden lograr con un solo rol. Al agrupar roles en un rol compuesto, los administradores pueden simplificar la gestión de acceso y permisos, y asegurarse de que los usuarios tengan asignados los niveles apropiados de acceso al sistema. " />
+
+             <Text class="text"            
+            text=
+            "Por ejemplo, en un entorno de atención médica, un médico puede necesitar acceso a una variedad de sistemas y aplicaciones para brindar atención a los pacientes. En lugar de asignar cada rol individualmente (como médico, enfermera y farmacéutico), se puede crear un rol compuesto que incluya todos los roles que el médico necesita para realizar su trabajo. Este rol compuesto se puede asignar al médico como una unidad única, lo que simplifica la gestión de su acceso y permisos. " />
+
+            <Text class="text"            
+            text=
+            "Para esto solo se debe activar la opción '¿ Is Composite (Es compuesto)?'.Al activar esta opción se habilitará el tab Roles, donde se podrá agregar más permisos al nuevo rol, seleccionando el signo de + y posteriormente un rol del listado desplegable  " />
+            
+
+         <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Compuesto.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox>
+            <Text class="text sapUiSmallMarginEnd"            
+            text="BUPLAT es una plataforma creada para  gestionar procesos de negocio atravez de aplicaciones que están disponibles en la misma plataforma WEB, no hay que instalar nada adicional. Además se puede gestionar fácilmente la seguridad en las aplicaciones. 
+
+            Con BUPLAT se pueden optimizar los procesos de negocio a través de la automatización de los mismos y la de la gestión de políticas y riesgos asociados a estos."/>
+
+            <FlexBox>
+                <core:HTML content='&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_kZdNJ1M1xg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen &gt;&lt;/iframe&gt;'>
+                </core:HTML>
+            </FlexBox> 
+        </VBox> 
+    </Panel>   
+</core:FragmentDefinition>

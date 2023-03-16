@@ -1,0 +1,27 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Un usuario de BUPLAT podrá configurar la sección de “Preferencias” según sus necesidades, lo cual le permitirá tener una mejor experiencia con la plataforma:"/>
+
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; &lt;b &gt; Zona Horaria: &lt;/b &gt; BUPLAT tiene la capacidad de adaptarse a las diferentes zonas horarias de los distintos países en donde se instale. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Lenguaje: &lt;/b &gt; La plataforma es muy versátil y está disponible en los idiomas de inglés, español y chino. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Formato de Fecha y hora: &lt;/b &gt; En BUPLAT podrás seleccionar el formato de fecha según tu región. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Separador de Decimales: &lt;/b &gt; Aquí se podrá configurar si la parte decimal será separada por un punto o una coma. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Estado de Sesión: &lt;/b &gt; El usuario de BUPLAT podrá configurar el estado actual, ya sea indicando que está disponible (Online) o que no está disponible (Away) logrando una mejor comunicación con el equipo de trabajo. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Start Application: &lt;/b &gt; Esta opción es de  gran importancia para el usuario, ya que le ayuda a acceder de manera directa a la o las aplicaciones con la que más interactúa, seleccionando la aplicación determinada, al momento de iniciar sesión en BUPLAT se abrirá primero esa aplicación. &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <FlexBox width="100%">
+                <Image src="./img/Preferences.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

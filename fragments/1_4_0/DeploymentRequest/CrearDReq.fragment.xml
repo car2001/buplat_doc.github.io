@@ -1,0 +1,38 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="negrita"            
+            text="Crear una Solicitud de Despliegue (Desde el árbol de repositorio)"/>
+
+            <Text class="text"
+            text="Una solicitud de despliegue se creará de manera automática si es que un DP se liberó seleccionando New DR (Ver cap. anterior) con una nomenclatura por defecto: DR_&lt;&lt;número correlativo&gt;&gt;. Caso contrario se puede crear el contenedor ingresando a Deployment Request > Open > New Deployment Request. Se mostrará una pantalla donde se procederá a llenar los datos de la nueva Solicitud de Despliegue. Como nombre le colocaremos “SOLICITUD DEMO”, luego se debe relacionar a un proyecto y un reléase. El estado por defecto de un DR será siempre Open. "/>
+
+            <Text class="text"
+            text="Al presionar el icono Save se creará el nuevo DR y para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully” y el nuevo DR se alojará en la carpeta Open."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearDReq1.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="negrita"            
+            text="Crear un Paquete de Despliegue (Desde la tabla de la lista de DP)"/>
+
+            <Text class="text"
+            text="Otra forma de crear los paquetes de despliegue es mediante el icono de “New” Para ello se tiene que ingresar a Deployment Request > Open, al hacer clic en la carpeta Open se mostrará una pantalla con la tabla “Deployment Request List” donde se podrá visualizar todas las acciones que se puede realizar a un DR. Para crear un DR se debe hacer clic en el icono “+” y luego se procede a completar los campos ya mencionados anteriormente."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearDReq2.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearDReq3.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

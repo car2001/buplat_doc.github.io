@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Toda la información de la versión del producto se mostrará en esta sección. "/>
+
+            <FlexBox width="100%">
+                <Image src="./img/about.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+            <Text class="text"            
+            text="Donde: "/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Product Version: &lt;/b &gt; Es la versión actual del producto.  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Patch Number: &lt;/b &gt; Número de versión.  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Build Number: &lt;/b &gt; Número compuesto de la fecha en que se implementó la última versión más el número de…   &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Distribution: &lt;/b &gt; Aquí se especificará el tipo de la versión del producto ya sea Enterprise, On Hand.  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+            </core:HTML>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

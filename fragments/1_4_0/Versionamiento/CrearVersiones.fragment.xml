@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Cuando se elija crear una nueva versión el sistema activará un campo para agregar comentarios de la versión. El sistema pedirá confirmación si es una versión menor o mayor."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Versionamiento/CrearVersiones.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <FlexBox width="100%">
+                <Image src="img/Versionamiento/CrearVersiones2.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

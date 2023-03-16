@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <FlexBox>
+            <Image src="./img/apps.png" width="100%" class="image"></Image>
+        </FlexBox>
+        <VBox>
+            <Text class="text sapUiSmallMargin"            
+            text="BUPLAT en la versión 1.3.0 presenta las siguientes aplicaciones que están disponibles en la misma plataforma WEB, no hay que instalar nada adicional. Además se puede gestionar fácilmente la seguridad en las aplicaciones. 
+            Con BUPLAT se pueden optimizar los procesos de negocio a través de la automatización de los mismos y la de la gestión de políticas y riesgos asociados a estos."/>
+        </VBox> 
+    </Panel>     
+</core:FragmentDefinition>

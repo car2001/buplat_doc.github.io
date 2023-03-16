@@ -1,0 +1,62 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="negrita"            
+            text="Crear un Change Container (Desde el árbol de repositorio)"/>
+            <Text class="text"            
+            text="Si se empieza a crear objetos en las aplicaciones sin haber creado un contenedor, BUPLAT va a generar uno nuevo de manera automática con la siguiente nomenclatura: CC_&lt;&lt;user&gt;&gt;&lt;&lt;fecha y hora&gt;&gt;"/>
+
+            <Text class="text"
+            text="Caso contrario se puede crear el contenedor ingresando a Change Container > Open > New Change, donde se mostrará una pantalla con los siguientes datos: "/>
+
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; Name &lt;/li &gt;
+                &lt;li &gt; Display Name &lt;/li &gt;
+                &lt;li &gt; Description (Opcional) &lt;/li &gt;
+                &lt;li &gt; Proyect &lt;/li &gt;
+                &lt;li &gt; Release &lt;/li &gt;
+                &lt;li &gt; Owner &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <Text class="text"
+            text="Como nombre se colocará “Contenedor Solicitud de Vacaciones”, luego se debe relacionar a un proyecto y release, en este caso se seleccionará el proyecto y release creado anteriormente. Además, el contenedor será administrado por un Owner. "/>
+            
+            <Text class="text"
+            text="Al presionar el icono Save se creará el nuevo Change container y para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearChange1.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="negrita"            
+            text="Crear un Change Container (Desde la tabla de la lista de CC)"/>
+
+            <Text class="text"
+            text="Existe otra manera de crear contenedores, para ello se tiene que ingresar a Change Container > Open, al hacer clic en la carpeta open, se mostrará una pantalla con la tabla “Change Container List”, esta tendrá las acciones que se pueden hacer a un contenedor y serán explicadas una a una más adelante. Por el momento, para la creación se debe hacer clic en el icono “+”, donde se mostrará una pantalla solicitando los siguientes datos:"/>
+
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; Name &lt;/li &gt;
+                &lt;li &gt; Display Name &lt;/li &gt;
+                &lt;li &gt; Description (Opcional) &lt;/li &gt;
+                &lt;li &gt; Proyect &lt;/li &gt;
+                &lt;li &gt; Release &lt;/li &gt;
+                &lt;li &gt; Owner &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearChange2.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearChange3.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

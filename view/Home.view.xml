@@ -1,0 +1,11 @@
+<mvc:View
+   controllerName="sap.ui.buplat.controller.Home"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   height="100%">
+   <Page title="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
+      <content>
+         <Button text="Home" class="sapUiTinyMarginEnd"/>
+      </content>
+   </Page>
+</mvc:View>

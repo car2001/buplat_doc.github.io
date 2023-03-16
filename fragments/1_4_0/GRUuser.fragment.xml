@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Como usuario de BUPLAT se puede pertenecer a un grupo de usuarios, desde esta sección se le puede ir agregando uno o más grupos. Esta configuración también será usada para posibles asignaciones de tareas por grupo de usuarios y es necesario darle una fecha de inicio y fin. " />
+
+        
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Grupos.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+
+             <Text class="text"            
+            text=
+            "Una vez que se ha asignado un grupo de usuarios a un usuario, este podrá tener acceso a los recursos y funcionalidades asociados con ese grupo de usuarios en el sistema de gestión de procesos de negocio. Por ejemplo, si el grupo de usuarios tiene permisos de acceso a un proceso de negocio específico, el usuario asignado a ese grupo también tendrá acceso a ese proceso. " />
+
+
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

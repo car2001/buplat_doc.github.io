@@ -1,0 +1,13 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="Cuando se quiera cerrar sesión de BUPLAT, se debe seleccionar Disconnect, al hacer clic se cerrará sesión correctamente de BUPLAT y se redirigirá a la pantalla de Login."/>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

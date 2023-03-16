@@ -1,0 +1,16 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+
+            <Text class="text"            
+            text="Los componentes reutilizables en BUPLAT son elementos de funcionalidad que se pueden utilizar en múltiples procesos de negocio. Los componentes reutilizables se crean una vez y se pueden utilizar en varios procesos de negocio, lo que ahorra tiempo y recursos al no tener que crear la misma funcionalidad varias veces.   "/>
+
+            
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

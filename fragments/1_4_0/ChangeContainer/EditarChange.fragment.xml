@@ -1,0 +1,38 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+         
+            <Text class="text"            
+            text="Para actualizar un CC se debe ubicar en la carpeta Open y se debe hacer clic al contenedor que se quiere editar, donde se mostrará la pantalla con el detalle y la opción “Edit” (lápiz)."/>
+            <Text class="text"
+            text="Luego de editar los campos necesarios se procede a guardar los cambios. Además, para verificar que los cambios se realizaron correctamente se debe validar el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”. También tener en cuenta que en la sección “Audit Information” se visualizará el usuario, hora y fecha de la edición."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EditarChange.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EditarChange2.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+            <Text class="text"            
+            text="*Para actualizar un CC desde la tabla se hará mediante el icono de Edit (lápiz)."/>
+
+            <Text class="text"            
+            text="Para editar un CC desde la tabla se debe ubicar en la carpeta Open y seleccionar un CC, donde al hacer clic en el icono Edit, mostrará una pantalla con el detalle del CC."/>
+
+            <Text class="text"            
+            text="Luego de editar los campos necesarios se procede a guardar los cambios. Adicional, verificar que muestre el mensaje de confirmación y que en la sección del Audit Information se actualice el usuario, hora y fecha de creación."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EditarChange3.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EditarChange4.png" width="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

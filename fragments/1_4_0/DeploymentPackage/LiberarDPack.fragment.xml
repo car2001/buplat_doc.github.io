@@ -1,0 +1,30 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+        
+            <Text class="text"
+            text="Liberar un DP significa colocar todos los paquetes de despliegue en una solicitud de despliegue (DR) que se pasará a un siguiente entorno (Saber más sobre entornos). Para ello nos ubicamos en Change Container > Open > “Nuestro DP” y al hacer clic derecho, se debe seleccionar la opción de “Release”."/>
+            <core:HTML content='&lt;ol class="lista" &gt; 
+                &lt;li &gt; Si se quiere liberar en un nuevo DR marcamos la opción “NEW”  &lt;/li &gt;
+                &lt;li &gt; Caso contrario se puede seleccionar un DP ya creado desde el combo Deployment Request. &lt;/li &gt;
+                &lt;/ol &gt;'>
+            </core:HTML>
+
+            <Text class="text"
+            text="Al seleccionar New se mostrará un nuevo campo de “Descripción” donde se colocará una pequeña descripción del nuevo DR que se creará. Al guardar la liberación se verificará el nuevo DR en un messagestrip y se mostrará el Name del DR que será DP seguido de un correlativo. Por ejemplo, DR1, DR2, DR3. Desde la tabla de DP, hacemos esta liberación mediante el icono “Release” "/>
+
+            <Text class="text"
+            text="*Cuando se libera un DP este se alojará en la carpeta Close de los paquetes de despliegue."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/LiberarDPack.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

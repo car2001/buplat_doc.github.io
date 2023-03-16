@@ -1,0 +1,97 @@
+{
+    "_version": "1.12.0",
+    "sap.app": {
+      "id": "sap.ui.buplat",
+      "type": "application",
+      "title": "{{appTitle}}",
+      "description": "{{appDescription}}",
+      "applicationVersion": {
+        "version": "1.0.0"
+      }
+    },
+    "sap.ui": {
+      "technology": "UI5",
+      "deviceTypes": {
+          "desktop": true,
+          "tablet": true,
+          "phone": true
+      }
+    },
+    "sap.ui5": {
+      "rootView": {
+          "viewName": "sap.ui.buplat.view.App",
+          "type": "XML",
+          "id": "app"
+      },
+      "dependencies": {
+        "minUI5Version": "1.98.0",
+        "libs": {
+          "sap.ui.core": {},
+          "sap.m": {}
+        }
+      },
+      "models": {
+      },
+
+      "resources": {
+        "css": [
+            {
+                "uri": "css/style.css"
+            }
+        ]
+      },
+
+      "routing": {
+        "config":{
+          "routerClass": "sap.m.routing.Router",
+          "type":"View",
+          "viewType": "XML",
+          "path" : "sap.ui.buplat.view",
+          "controlId": "page",
+          "controlAggregation": "content",
+          "transition" : "slide",
+          "bypassed": {
+            "target": "notFound"
+           },
+           "async": true
+        },
+        "routes":[
+          {
+            "pattern": "Documentation/{version}:?query:",
+            "name": "documentation",
+            "target": "documentation"
+          },
+          {
+            "pattern": "",
+            "name": "appHome",
+            "target": "home"
+          },
+          {
+            "pattern": "not",
+            "name": "not",
+            "target": "notFound"
+          },
+          {
+            "pattern": "1.4.0/{id}",
+            "name": "1.4.0",
+            "target" : "documentation"
+          }
+        ],
+        "targets": {
+          "home": {
+            "id": "home",
+            "name": "Home"
+         },
+          "documentation":{
+            "id": "documentation",
+            "name": "App"
+          },
+          "notFound": {
+            "id": "notFound",
+            "viewName": "NotFound",
+            "transition": "show"
+          }
+        }
+      }
+    }
+}

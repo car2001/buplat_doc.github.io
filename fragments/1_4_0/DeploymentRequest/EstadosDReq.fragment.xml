@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; Open: Indica que los DR están listos para ser envidos a otro entorno destino. &lt;/li &gt;
+                &lt;li &gt; Send to Certification: Indica que el DR ya se envió al entorno destino. &lt;/li &gt;
+                &lt;li &gt; Failed to Send: Indica que hubo un error al intentar pasar el DR al entorno destino. &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

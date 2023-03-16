@@ -1,0 +1,35 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Versioning es la capacidad de la plataforma para poder gestionar diferentes versiones de un mismo objeto con la finalidad de tener un mejor gobierno sobre automatizaciones y también de mantener la integridad de casos que actualmente ya utilizan versiones existentes. "/>
+
+            <Text class="text"
+            text="Existirán 2 tipos de versiones: "/>
+
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; Minor: Cambios que afectan a casos existentes de los procesos y también a las configuraciones.  &lt;/li &gt;
+                &lt;li &gt; Major: Cambios que NO afectan a casos ni configuraciones existentes.  &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <Text class="text"
+            text="El esquema de Versionamiento es [Version Mayor].[Versión Menor] => pe. 1.12"/>
+
+            <Text class="text"
+            text="La versión se almacena de forma numérica y se tiene un campo para la menor y otro para la mayor. "/>
+
+            <Text class="text"
+            text="La versión inicial será la 1.0"/>
+
+            <Text class="text"
+            text="Cuando se elija crear una nueva versión el sistema activará un campo para agregar comentarios de la versión. El sistema pedirá confirmación si es una versión menor o mayor."/>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

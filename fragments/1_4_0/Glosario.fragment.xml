@@ -1,0 +1,317 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox>
+            
+            <Text class="text sapUiSmallMarginEnd"            
+            text="A"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                &lt;li &gt; &lt;b &gt; Abort (Cancelar): &lt;/b &gt; Cancelar una instancia en BUPLAT se refiere a detener una instancia de un proceso de negocio que está en ejecución. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Action Group (Grupo de acciones):  &lt;/b &gt; En un BPMS un grupo de acciones se refiere a un conjunto de acciones que se ejecutan juntas en el contexto de un proceso de negocio. La creación de grupos de acciones en un BPMS es una forma de mejorar la eficiencia y la precisión del proceso de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Activity (Actividad): &lt;/b &gt; Una actividad es una tarea o acción que se realiza en el contexto de un proceso de negocio. Las actividades son elementos básicos de un proceso de negocio y representan las acciones que se realizan para lograr el objetivo del proceso. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Activity Due Date (Fecha de vencimiento de la actividad): &lt;/b &gt; Se refiere a la fecha límite en la que una actividad específica en un proceso de negocio debe completarse. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Allocation (Asignación): &lt;/b &gt; Es la asignación de tareas o responsabilidades a usuarios específicos en el contexto de un proceso de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Application (Aplicación): &lt;/b &gt; En BUPLAT llamamos a todos los módulos que existen para poder automatizar un proceso. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Attachment (Adjunto): &lt;/b &gt; En un BPMS "Attachment" nos referimos a cualquier archivo o documento que se adjunta a una tarea o proceso de negocio. Los archivos adjuntos pueden incluir documentos de texto, imágenes, videos, hojas de cálculo u otros tipos de archivos. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Attribute (Atributo de una entidad): &lt;/b &gt; Un atributo de una entidad se refiere a una característica o propiedad específica de esa entidad. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Audit Information (Información de auditoria): &lt;/b &gt; Se refiere al registro de actividades y eventos relacionados con la ejecución de un proceso de negocio. La información de auditoría se utiliza para fines de seguimiento, supervisión, cumplimiento y mejora continua. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Automation Features (Características de la automatización): &lt;/b &gt; Son las funcionalidades que permiten la ejecución de procesos de negocio de manera automatizada. &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="B"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; BCC (Con copia oculta a): &lt;/b &gt; En el contexto de una tarea de envío, se refiere al campo "Blind Carbon Copy" en un correo electrónico, que permite a los remitentes enviar copias de un mensaje a destinatarios adicionales sin que los destinatarios principales sean conscientes de ello. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Billable (Horas facturables): &lt;/b &gt; En BUPLAT, "Billable" se utiliza a menudo en el registro del “Timesheet" para indicar si un proyecto o tarea es facturable o no. Si una tarea o proyecto es facturable, significa que el tiempo dedicado a esa tarea puede ser facturado al cliente o a otra parte interesada. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Boss (jefe de usuario): &lt;/b &gt; El "Boss" de un usuario se refiere al supervisor o gerente de la unidad de negocio en la que trabaja ese usuario, y puede tener diferentes roles y niveles de autoridad en el sistema, dependiendo de las políticas y la estructura organizacional de la empresa. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Build Number (Número de versión): &lt;/b &gt; El "Build Number" es un número que identifica una versión específica de BUPLAT y se utiliza para distinguir las diferentes versiones del software.  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="C"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Calendar (Calendario):  &lt;/b &gt; El calendario en BUPLAT muestra información sobre los horarios laborales, días festivos y otros eventos importantes que puedan afectar la planificación y ejecución de los procesos de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Change Container (Contenedor de cambios):  &lt;/b &gt; Un "change container" es una funcionalidad que permite guardar cambios (de los objetos) en el modelo de procesos de negocio y aplicar esos cambios en un entorno de producción sin interrumpir el funcionamiento de los procesos en curso. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Chart Type (Tipo de gráfico):  &lt;/b &gt; Se refiere al tipo de gráfico que se utiliza para visualizar los datos relacionados con los procesos de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Check list (Lista de control):  &lt;/b &gt; Se refiere a una lista de tareas o actividades que deben completarse como parte de un proceso de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Claim (Reclamar una instancia):  &lt;/b &gt; "Claim" se refiere a una acción que realiza un usuario para reclamar o tomar posesión de una tarea o actividad en un proceso de negocio. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Closure Date (Fecha de cierre):  &lt;/b &gt; Se refiere a la fecha en la que se cierra una tarea o actividad de un proceso de negocio. La fecha de cierre se utiliza para medir el tiempo que se tarda en completar una tarea, identificar posibles retrasos o cuellos de botella en el proceso. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Comments (Comentarios):  &lt;/b &gt; La sección de comentarios en un BPMS puede ser muy valiosa en el contexto de una actividad para mejorar la eficiencia, la calidad y la efectividad de la actividad, así como para fomentar la colaboración y la comunicación entre los participantes. &lt;/li &gt;
+
+                &lt;li &gt; &lt;b &gt; Company (Compañía):   &lt;/b &gt; En el contexto de una gestión de estructura organizacional, "company" se refiere a una entidad empresarial, que puede ser una empresa, una organización sin fines de lucro, una institución gubernamental, entre otros. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Counter (Contador de la instancia):  &lt;/b &gt; Un contador de instancia en BUPLAT se utiliza para contar el número de veces que se ha ejecutado una instancia específica de un proceso.  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; CType (Tipo del componente):  &lt;/b &gt; El Ctype se refiere al formato o tipo de contenido que se utiliza para almacenar y procesar información. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Custom Query (Consulta personalizada):  &lt;/b &gt; Una "custom query" en un BPMS se refiere a una consulta personalizada que se realiza en una base de datos para obtener información específica que no está disponible en las consultas predeterminadas proporcionadas por el sistema. &lt;/li &gt;
+                
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="D"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Dashboard (Tableros de Gráficos):  &lt;/b &gt; Un Dashboard es una interfaz de usuario visual que muestra información clave de los procesos de negocio y su desempeño en tiempo real, y puede ser personalizado para satisfacer las necesidades específicas de los usuarios y de la empresa. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Data Model (Modelo de Datos):  &lt;/b &gt; Un “data model” es la estructura de datos utilizada para almacenar información en la base de datos del sistema, y define las entidades y relaciones entre ellas, así como restricciones de integridad y validación de datos. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Data Source:  &lt;/b &gt; Un "data source" (fuente de datos) se refiere a cualquier origen de datos que se utiliza para proporcionar información a los procesos de negocio. Las fuentes de datos pueden incluir sistemas externos, bases de datos, servicios web, archivos planos, entre otros. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Deploy (Desplegar):  &lt;/b &gt; Se refiere al proceso de implementar y poner en marcha un proceso de negocio en un entorno de producción. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Deployment Package:  &lt;/b &gt; Es un conjunto de archivos (Contenedores de cambios) que contienen los componentes necesarios para desplegar un proceso de negocio en un entorno de producción. &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Deployment Request:  &lt;/b &gt; Una Deployment Request (solicitud de despliegue) es una solicitud para desplegar un proceso de negocio en un entorno de producción (En BUPLAT un Deployment Request contienen Deployment Package). &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Diagram BPM (Diagrama del proceso): &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Dimensiones (Dimensiones): &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Documentation (Documentación): &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Due Date (Fecha de vencimiento): &lt;/b &gt;  &lt;/li &gt;
+                
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="E"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Effort (Esfuerzo de trabajo) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity (Entidad) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity Cross Enviroment (Entidad transversal) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity Process (Entidad del proceso) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity System (Entidad del sistema) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity FACADE (Entidad fachada) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity Global (Entidades globales) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity Local Enviroment (Entidades locales) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Entity Transactional (Entidades transaccionales) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Environment (Ambientes/Entornos) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Events (Eventos) &lt;/b &gt;  &lt;/li &gt;
+                
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="F"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Footer (Pie de formularios) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Form Data (Formularios de datos) &lt;/b &gt;  &lt;/li &gt;
+                
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="H"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Header (Encabezados de formularios) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Hierarchies (Jerarquías) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Host (Servidor donde se almacena BUPLAT) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="I"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Icon (Iconos) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Inbox (Bandeja de entrada de tareas) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instance Creator (Creador de la Instancia) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instance Description (Descripción de la instancia) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instance Numbering Schema (Código de la instancia) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instance Reference ID (Identificador de referencia de la instancia) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instances (Instancia/ejecutar el proceso) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Instance Due Date (Fecha de vencimiento de la instancia) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="J"/>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="K"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Key (Clave de referencia) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="L"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Level (Nivel de Jerarquías) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; License (Licencias) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Lock Indicator (Indicador de objetos bloqueados en el sistema) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Locks (Bloqueos en el sistema) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Log (Historial de registros en el sistema) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="M"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Metric (Métricas) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="N"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; News (Noticias en BUPLAT) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Newsletters (Noticias destacadas en BUPLAT) &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="O"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Object (Objeto) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Object Class (Clases de Objetos) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Owner (Propietario) &lt;/b &gt;  &lt;/li &gt;
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="P"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Parse (Convertir sintaxis de un lenguaje) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Password Encryption (Contraseña Encriptada/Escondida) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Patch Number (Numero de parche de la versión de BUPLAT) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Path (Ruta/Camino) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Performer (Ejecutador de una actividad) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Permissions (Permisos de seguridad) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Port (Puerto a conexiones) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Position (Posiciones dentro de las compañías) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Process (Procesos) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Process Repository (Repositorio de procesos) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Product Version (Version actual de BUPLAT) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Project (Proyecto) &lt;/b &gt;  &lt;/li &gt;
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="Q"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Query (Consultas) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Query Viewer (Visor de consultas) &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Quick View (Vista rápida) &lt;/b &gt;  &lt;/li &gt;
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="R"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Rate &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Regular Expression &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Reference ID &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Release &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Reusable Component &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Risk &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Rol &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Root &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="S"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Set Active &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Simple Report &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; SLA &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Source &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; SSL &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Start At &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Subject &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Summary &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="T"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Target Name &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Task &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Tax Number &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Technical User &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Test Service &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Time State &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Timeline &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Timesheet &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; To &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Tracing &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+                
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="T"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; UI &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Unidad Organizacional &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; URI &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; URL &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; User Group &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="V"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Version &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; View Path &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <Text class="text sapUiSmallMarginEnd"            
+            text="W"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; &lt;b &gt; Wizard &lt;/b &gt;  &lt;/li &gt;
+                &lt;li &gt; &lt;b &gt; Workitem &lt;/b &gt;  &lt;/li &gt;
+
+                &lt;/ul &gt;'>
+            </core:HTML>
+        </VBox> 
+    </Panel>   
+</core:FragmentDefinition>

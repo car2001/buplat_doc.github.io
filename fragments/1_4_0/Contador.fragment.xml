@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Un counter es un componente reutilizable en BUPLAT que se utiliza para llevar un registro numérico de la instancia. Los counters son útiles para llevar un seguimiento de la cantidad de veces que ocurre un evento específico en un proceso de negocio. Por ejemplo, se puede utilizar un counter para llevar un registro del número de ventas realizadas en un proceso de negocio
+            Este componente es parte de nuestro esquema numérico que tendrá nuestras instancias del proceso que será el identificador." />
+
+           
+            
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

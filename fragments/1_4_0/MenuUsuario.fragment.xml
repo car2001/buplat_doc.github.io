@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="En el menú de usuarios de BUPLAT encontrarás las opciones y funcionalidades disponibles para los usuarios que utilizan el sistema BPMS.
+            "/>
+            <Text class="text"            
+            text="Son los siguientes: Acerca de, Perfil de Usuario, Preferencias, Cambiar de Contraseña, Mis bloqueos, Mis tiempos y la opción de Cerrar Sesión.
+            "/>
+
+            <FlexBox width="100%">
+                <Image src="./img/MenuUsuario.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

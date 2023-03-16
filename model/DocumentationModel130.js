@@ -1,0 +1,113 @@
+sap.ui.define([],
+    function () {
+        "use strict";
+        const DocumentationModel130 = {
+            "documentation": {
+              "categories": [
+                {"name":"Bienvenido a Buplat", "key":"INDEX"},    
+                {"name": "Introducción", "key":"INTRO",
+                "categories": [
+                  {"name":"Conociendo BUPLAT","key":"INTRO_BPT"},
+                  {"name":"Home de Aplicaciones","key":"INTRO_HOME"},
+                  {"name":"Menú de Usuario", "categories": [
+                    {"name": "About"},
+                    {"name": "User Profile"},
+                    {"name": "Preferences"},
+                    {"name": "Change Password"},
+                    {"name": "My Locks"},
+                    {"name": "My Timesheet"},
+                    {"name": "Disconnect"}
+                  ]}
+                ]},
+                {"name": "Aplicaciones", "key":"APP", "categories": [
+                  {"name":"Security Manager", "categories": [
+                    {"name": "Roles","categories":[
+                      {"name":"Crear un Role"},
+                      {"name":"Eliminar un Role"},
+                      {"name":"Editar un Role"},
+                      {"name":"Role Basado en Atributos"},
+                      {"name":"Role Compuesto"},
+                      {"name":"Asignar Permisos a un Role"}
+                    ]},
+                    {"name": "User", "categories": [
+                      {"name": "Crear un User"},
+                      {"name": "Eliminar un User"},
+                      {"name": "Configurar un User con Lock Indicators"},
+                      {"name": "Configurar un Technical User"},
+                      {"name": "Crear un Root User"},
+                      {"name": "Activar Allocation a un User"},
+                      {"name": "Activar Notificaciones a un User"},
+                      {"name": "Asignar Grupos a un User"},
+                      {"name": "Asignar Roles a un User"},
+                      {"name": "Asignar Subtitutes a un User"}
+                    ]},
+                    {"name": "User Group", "categories": [
+                      {"name": "Crear un User Group"},
+                      {"name": "Eliminar un User Group"}
+                    ]}
+                  ]},
+                  {"name":"Organizational Structure Manager", "categories": [
+                    {"name": "Crear un Company"},
+                    {"name": "Crear un Organizational Unit"},
+                    {"name": "Crear un Position"},
+                    {"name":"Crear un Location"}
+                  ]},
+                  {"name":"Configuration Manager", "categories": [
+                    {"name": "Reusable Component", "categories":[
+                      {"name":"Counter"},
+                      {"name":"SLA Definition"},
+                      {"name":"Form UI Configuration"},
+                      {"name":"Performer Profile"},
+                      {"name":"Risk Profile"}
+                    ]},
+                    {"name": "Settings","categories":[
+                      {"name":"Global Settings"},
+                      {"name":"Enviroment Configuration"}
+                    ]}
+                  ]},
+                  {"name":"Process Manager", "categories": [
+                      {"name": "Hierarchies", "categories":[
+                        {"name":"Crear Jerarquías"},
+                        {"name":"Crear Subjerarquías"},
+                        {"name":"Editar Procesos en la sección de jerarquías"}
+                      ]},
+                      {"name": "Process","categories":[
+                        {"name":"Crear un Proceso No Automatizado"},
+                        {"name":"Crear un Proceso Automatizado"},
+                        {"name":"Configurar Procesos Automatizado"}
+                      ]},
+                      {"name": "WIZARD","categories":[
+                          {"name":"Cambiar de Jerarquía un proceso"},
+                          {"name":"Process Diagram"},
+                          {"name":"Activity Form"},
+                          {"name":"Instance Form"},
+                          {"name":"Data Entities en el PM"},
+                          {"name":"Business Rules"}
+                        ]}
+                    ]},
+                    {"name":"Data Entity Manager", "categories": [
+                      {"name": "Crear Entidades Globales"},
+                      {"name": "Crear Entidades Local"},
+                      {"name": "Crear Entidades Cross","categories":[
+                          {"name":"Configurar Atributo por defecto"}
+                      ]},
+                      {"name": "Crear Entidades Transaccionales"},
+                      {"name": "Cambiar Jerarquía a una Entidad"}
+                    ]},
+                    {"name":"Data Record Manager", "categories": [
+                      {"name": "Agregar registros a una entidad"}
+                    ]}
+                  ]},
+                  {"name": "Versionamiento de Componentes", "categories": [
+                    {"name":"Crear Versiones"},
+                    {"name":"Historial de Versiones"},
+                    {"name":"Restaurar Versiones"},
+                    {"name":"Ver Dependencias"}
+                  ]}
+                ]
+              }
+          };
+
+        return  DocumentationModel130;
+    }
+);

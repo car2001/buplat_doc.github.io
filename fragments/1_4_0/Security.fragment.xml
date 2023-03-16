@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="La administración de la seguridad es la aplicación de BUPLAT donde se administra la seguridad y el control de acceso del sistema. Aquí es donde se garantiza que el sistema sea seguro y que los usuarios tengan los niveles de acceso apropiados a las diferentes funciones y características de BUPLAT.
+            Esta aplicación permite administrar cuentas de usuario, grupo de usuarios, roles y permisos. "/>
+
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Administración de usuarios: Una sección donde los administradores pueden crear, editar y eliminar cuentas de usuario. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Administración de roles: Una sección donde los administradores pueden crear diferentes roles para los usuarios y asignar diferentes niveles de acceso y permisos a cada rol. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Administración de permisos: Una sección donde los administradores pueden definir permisos específicos para cada rol o usuario, como la capacidad de ver, crear o editar procesos y tareas. &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Security.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

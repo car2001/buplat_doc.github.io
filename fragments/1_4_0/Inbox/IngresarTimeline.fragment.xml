@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="El timeline es un histórico de todas las actividades realizadas del proceso hasta el momento."/>
+            <Text class="text"            
+            text="Cuando la actividad esté finalizada se mostrará el performer y cuando esté activa mostrará el asignado o los asignados. 
+            En caso la actividad haya sido completada como avatar se muestra la primera letra del nombre y el apellido del usuario. Si no, se mostrará una imagen genérica indicando que la actividad aún está activa.
+            "/>
+            <Text class="text"            
+            text="Adicionalmente, mostrará el tiempo transcurrido desde la última modificación junto con el estado actual de la actividad."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/IngresarTimeline.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,40 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Para crear un usuario se debe acceder a la aplicación Security Manager (Gestion de Seguridad) e ingresar a la sección User y Role Management(Gestion de Usuarios y Funciones). Al hacer clic en el componente User,se mostrará la sección de lista de Usuarios y para crear un nuevo usuario, se debe hacer clic en el icono +, donde se mostrará una pantalla solicitando los siguientes datos: " />
+
+             <Text class="text"            
+            text=
+            "Para un usuario algunos campos necesarios son los siguientes: " />
+
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Username  &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Contraseña &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Email  &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  Fecha de inicio de Vigencia &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  Fecha de fin de Vigencia   &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Nombre  &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Apellido   &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Empresa  &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Unidad Organizacional  &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Posición   &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+
+             <Text class="text"            
+            text=
+            "Al presionar el icono Save se creará un nuevo usuario. Para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully (La operación ha sido completada éxitosamente).”  " />
+
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearUser.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+        
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

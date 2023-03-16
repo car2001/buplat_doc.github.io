@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Se puede visualizar en secciones según el filtro que se haga en el popup que aparecerá al hacer clic en el icono “Group”. La agrupación de los workitems se podrá realizar de forma ascendente o descendente y tomando en cuenta una característica de esta."/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/AgruparTabla.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="text"            
+            text="Para poder reestablecer la agrupación a su estado inicial de debe hacer clic en la opción “Reset”."/>
+        
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

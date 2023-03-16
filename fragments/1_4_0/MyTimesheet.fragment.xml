@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="La funcionalidad de la hoja de tiempo en BUPLAT está diseñada para ayudar a los usuarios y gerentes a rastrear y administrar su tiempo que utilizó en sus actividades, de manera más efectiva, lo que puede conducir a una mayor productividad y eficiencia en el lugar de trabajo."/>
+            <Text class="text"            
+            text="Además, se puede hacer un filtro por fechas teniendo como resultado una tabla que indica las horas registradas por actividad."/>
+            <Text class="text"            
+            text="Finalmente se puede ver el total de horas registradas según el filtro. "/>
+            <FlexBox width="100%">
+                <Image src="./img/MyTimesheet.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

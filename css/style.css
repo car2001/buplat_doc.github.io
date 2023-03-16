@@ -1,0 +1,78 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-right: 0.125rem
+}
+ 
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-left: 0.125rem
+}
+ 
+.myAppDemoWT .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.titleClass{
+   color: #003366;
+   padding: 20px;
+   font-weight: bold;
+}
+
+.sapBar{
+   background-color: #1fc0d7 !important;
+   box-shadow : none !important;
+}
+
+
+
+
+.Footer{
+   background-color: #1fc0d7 !important;
+}
+
+.link{
+   color: #fff;
+   
+}
+
+.size1 {
+	font-size : 2.5rem;
+}
+
+.link:hover{
+   color: #fff !important;
+}
+
+
+.aside-tree-table > div > div > div > div > div > table > tbody > tr > td {
+   border-bottom: 10px;
+   border-color: transparent;
+}
+
+.panel-padding >div{
+   padding: 0 !important;
+}
+
+.image{
+   max-width: 100% !important;
+   max-height: 100% !important;
+   object-fit: cover !important;
+}
+
+.text{
+   line-height: 1.5;
+   text-align: justify !important;
+   margin-bottom: 1rem;
+}
+
+.negrita{
+   line-height: 1.5;
+   text-align: justify !important;
+   margin-bottom: 1rem;
+   font-weight: bold;
+}
+
+.lista{
+   line-height: 1.5;
+   font-size: .875rem;
+}
+

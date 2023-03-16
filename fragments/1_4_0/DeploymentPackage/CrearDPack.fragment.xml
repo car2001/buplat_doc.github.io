@@ -1,0 +1,33 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="negrita"            
+            text="Crear un Paquete de Despliegue (Desde el árbol de repositorio)"/>
+            <Text class="text"
+            text="Un paquete de despliegue se creará de manera automática si es que un CC se liberó seleccionando NEW DP (Ver cap. anterior) con una nomenclatura por defecto: DP_&lt;&lt;número correlativo&gt;&gt;"/>
+            <Text class="text"
+            text="Caso contrario se puede crear el contenedor ingresando a Deployment Package > Open > New Deployment Package. Se mostrará una pantalla donde se debe ingresar los datos del nuevo paquete de despliegue. Como nombre se le colocará “PAQUETE DEMO”, luego se debe relacionar a un proyecto y release, en este caso se debe relacionar con el proyecto y release creados anteriormente. El estado por defecto de un DP será siempre Open. "/>
+            <Text class="text"
+            text="Al presionar el icono Save se creará el nuevo DP y para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully” y el nuevo DP se alojará en la carpeta Open."/>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearDPack.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="negrita"            
+            text="Crear un Paquete de Despliegue (Desde la tabla de la lista de DP)"/>
+            <Text class="text"
+            text="Otra forma de crear los paquetes de despliegue es mediante el icono de “New”"/>
+            <Text class="text"
+            text="Para ello se tiene que ingresar a Deployment Package > Open, al hacer clic en la carpeta Open se mostrará una pantalla con la tabla “Deployment Package List” con todas las acciones que se puede realizar a un DP. Para la creación se debe hacer clic en el icono + y se procede a completar los campos ya mencionados anteriormente."/>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearDPack2.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

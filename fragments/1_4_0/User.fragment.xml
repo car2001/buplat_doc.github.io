@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Un usuario es una persona que utiliza el sistema para realizar tareas y completar procesos empresariales, y que puede tener diferentes niveles de acceso y permisos según los roles que se le asignen. " />
+
+            <Text class="text"            
+            text=
+            "Los usuarios pueden tener diferentes niveles de acceso y permisos dentro del sistema, dependiendo de los roles que se les asignen. Por ejemplo, un usuario puede tener acceso solo a ciertas partes del sistema o solo a ciertos procesos de negocio, mientras que otro usuario puede tener acceso completo a todas las funciones y características del sistema. " />
+
+             <Text class="text"            
+            text=
+            "La gestión de usuarios es una parte importante, ya que garantiza que los usuarios tengan acceso a las partes de BUPLAT que necesitan para realizar su trabajo, y que no tengan acceso a información o funciones que no sean relevantes para ellos. " />
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

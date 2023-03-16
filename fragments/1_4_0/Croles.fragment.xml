@@ -1,0 +1,36 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Aquí es donde se establecen las responsabilidades que el rol va a desempeñar, para asignarle a los usuarios, mediante permisos. 
+             Para crear un rol se debe ingresar a la aplicación Security Manager e ingresar a la sección User  Role Management. Al hacer clic 
+             en el componente Role, se mostrará la sección de lista de roles, para crear uno nuevo, damos clic en el icono +, se mostrará una pantalla solicitando los siguientes datos: "/>
+            
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Agregar un Name(nombre) &lt;/li &gt; &lt;/ul &gt;'>
+            </core:HTML>
+
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Agregar un Display Name (nombre para mostrar) &lt;/li &gt; &lt;/ul &gt;'>
+            </core:HTML>
+
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Agregar Description(opcional) &lt;/li &gt; &lt;/ul &gt;'>
+            </core:HTML>
+
+
+           <Text class="text"            
+            text=
+            "Al presionar el icono Save estaremos creando un nuevo rol. Para comprobar que la creación se hizo de manera correcta, verificamos 
+            que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully.  "/>
+            
+
+        
+             <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Rol.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

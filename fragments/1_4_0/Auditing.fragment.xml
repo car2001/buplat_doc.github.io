@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Se tendrá la opción de hacer auditoría sobre los registros creados y actualizados. En cada tabla se tendrá la información solo de la última actualización. "/>
+
+            <Text class="text"
+            text="Los campos que se muestran son: "/>
+
+            <core:HTML content='&lt;ul class="lista" &gt;
+                &lt;li &gt; CreatedBy &lt;/li &gt;
+                &lt;li &gt; CreatedAt &lt;/li &gt;
+                &lt;li &gt; ChangedBy &lt;/li &gt;
+                &lt;li &gt; ChangeAt &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <FlexBox width="100%">
+                <Image src="img/Auditing.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

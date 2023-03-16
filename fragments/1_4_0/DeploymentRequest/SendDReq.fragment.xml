@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Para enviar a otro entorno la carpeta de solicitud de despliegue, se podrá realizar únicamente desde la tabla Deployment Request List."/>
+
+            <Text class="text"
+            text="En la tabla se mostrarán las diferentes opciones que se puede hacer al DR, para enviar a otro entorno seleccionamos el icono “Send for Deployment”. Al hacer clic en el icono mencionado anteriormente, automáticamente BUPLAT hace el pase al siguiente entorno, se puede verificar que el pase se hizo correctamente cuando en la parte superior se puede visualizar el messagestrip de confirmación."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/SendDReq.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

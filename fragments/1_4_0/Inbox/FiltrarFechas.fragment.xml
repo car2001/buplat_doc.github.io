@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para filtrar por un rango de fechas a las actividades asignadas, se debe hacer clic en el picker de calendario y se procederá a seleccionar una fecha de inicio y de fin. Inmediatamente la tabla “Workitems” se irá actualizando según el filtro."/>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Al hacer clic en la opción “Clear All Filters” la tabla Workitems volverá a su estado inicial dejando sin efecto algún filtro, agrupamiento u ordenamiento que se haya configurado previamente."/>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

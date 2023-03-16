@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="La opción de “Refresh” permite actualizar y visualizar las tareas que sean asignadas mientras se esté haciendo uso del Inbox. "/>
+            <Text class="text"            
+            text="En caso que esto suceda, al hacer clic en el icono “Refresh”, la nueva actividad asignada para el usuario, se visualizará al final de la tabla “Workitems”."/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/RefrescarTabla.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

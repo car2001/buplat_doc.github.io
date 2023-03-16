@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+         
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; Open &lt;/li &gt;
+                &lt;li &gt; In Progress &lt;/li &gt;
+                &lt;li &gt; Closed &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EstadosProject.png" width="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

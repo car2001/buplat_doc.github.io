@@ -1,0 +1,22 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Al usar versiones en las configuraciones es más necesario el poder ver en donde se usa una determinada configuración. "/>
+
+            <Text class="text"
+            text="Las dependencias se usarán también para evitar que se borren objetos que actualmente ya son usados."/>
+
+
+            <FlexBox width="100%">
+                <Image src="img/Versionamiento/VerDependencias.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

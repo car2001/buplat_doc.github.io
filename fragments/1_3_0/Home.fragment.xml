@@ -1,0 +1,18 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="BUPLAT es de uso fácil, Al iniciar sesión en BUPLAT con el usuario y contraseña, se mostrarán dinámicamente una interfaz con todas las aplicaciones a las cuales se tendrá acceso según el rol que tenga el usuario. Además, BUPLAT es de uso fácil y se compone de las siguientes secciones: "/>
+
+            <FlexBox width="100%">
+                <Image src="./img/Home.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>     
+</core:FragmentDefinition>

@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Ciclo de vida de una Instancia:"/>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EstadosInstancia.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <Text class="text"            
+            text="Failed será usado para control interno. "/>
+            <Text class="text"            
+            text="Aborted es usado para la opción de administración cuando se cancela el caso. "/>
+            <Text class="text"            
+            text="Suspended será usado para detener el tiempo del SLA."/>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

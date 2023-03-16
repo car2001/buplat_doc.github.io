@@ -1,0 +1,33 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para crear un evento se debe ingresar a la aplicación InBuplat. Al hacer clic en el componente Event, se mostrará la sección de lista de events y para crear un nuevo evento, se debe hacer clic en el icono +, donde se mostrará una pantalla solicitando los siguientes datos:"/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; Name &lt;/li &gt;
+                &lt;li &gt; Diasplay name &lt;/li &gt;
+                &lt;li &gt; Description(opcional) &lt;/li &gt;
+                &lt;li &gt; Title &lt;/li &gt;
+                &lt;li &gt; Location &lt;/li &gt;
+                &lt;li &gt; Start Date Time &lt;/li &gt;
+                &lt;li &gt; End Date Time &lt;/li &gt;
+                &lt;li &gt; Meting link &lt;/li &gt;
+                &lt;li &gt; Calendar &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearEvento.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="text" 
+            text="Al presionar el icono Save se creará un nuevo evento. Para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully."/>
+                        
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

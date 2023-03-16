@@ -1,0 +1,27 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+
+
+            <Text class="text"            
+            text="En BPM un SLA (Acuerdo de Nivel de Servicio) dinámico basado en atributos se refiere a un tipo de SLA en el que los valores del SLA se establecen en función de ciertos atributos (Tipo Date) del proceso o de los datos asociados al proceso. "/>
+
+
+            <Text class="text"    
+
+            text="  Si se elige la opción de SLA basado en atributos se dice que el tiempo de SLA será tomado dependiendo de lo que se coloque en el campo tipo date del formulario del proceso. Este SLA lo configura el propio ejecutador del workitem. "/>
+
+              
+
+
+        <FlexBox width="100%">
+                <Image src="img/Aplicaciones/DynamicSla.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

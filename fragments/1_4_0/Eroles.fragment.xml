@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Para eliminar un rol se debe ingresar a la aplicación Security Manager, posteriormente a la Opcion User
+            y Role Management.Al hacer clic en el componente Role, se mostrará la lista de todos los roles, donde cada uno de ellos tendrá la opción de ser eliminado, representado con el icono del bote de basura.Al hacer clic en el icono se abrirá un popup donde solicitará la confirmación de la eliminación.  
+            Además, tener en cuenta que si un rol está asignado a un usuario no se podrá eliminar. "/>
+
+        <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Eliminar.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

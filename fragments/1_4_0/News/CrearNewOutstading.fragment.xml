@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Al llenar los datos para crear una nueva noticia, se podrá visualizar un campo llamado “Outstanding”, donde al activar esa opción, se estará configurando a la noticia como sobresaliente. Para verificar que la configuración esta correctamente, tendremos que ingresar a la aplicación del Collaboration Workspace."/>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearNewOut.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

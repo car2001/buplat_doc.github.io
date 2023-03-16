@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "Como administrador de usuario se tiene la opción de cambiar contraseña a los usuarios sin necesidad de saber su contraseña actual. A diferencia de la opción de “Change Password” a nivel de opciones de usuario que si solicita la contraseña actual.  " />
+
+             <Text class="text"            
+            text=
+            "Para hacer este cambio se cuenta con el icono “Change Password”, al hacer clic, se abrirá un popup indicando que se debe ingresar la nueva contraseña y se solicitará la confirmación. Además, tener en cuenta que para que se pueda verificar el cambio, se tiene que iniciar sesión nuevamente ingresando la contraseña nueva.     " />
+
+           
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Contraseña.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,23 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="BUPLAT soporta y maneja los bloqueos que se pueda dar al interactuar o configurar diferentes componentes de la plataforma."/>
+            <Text class="text"            
+            text="Cada vez que el usuario edite una configuración, el sistema la bloqueará para que otros no puedan modificarla. Es decir, que si el usuario quiere editar un objeto que ya tiene un bloqueo, el sistema mostrará el error: “This object is locked by [username]”. Cuando el usuario guarde el objeto o cancele la acción, el sistema removerá el bloqueo automáticamente."/>
+            <Text class="text"            
+            text="Al ingresar a la opción de My Locks se abrirá un popup con todos los bloqueos de componentes que se tiene hasta el momento y que no permite seguir con las configuraciones."/>
+            <Text class="text"            
+            text=" Para eliminar estos bloqueos, se debe seleccionar y hacer clic en el icono del bote de basura (eliminar)."/>
+
+            <FlexBox width="100%">
+                <Image src="./img/MyLocks.png" width="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

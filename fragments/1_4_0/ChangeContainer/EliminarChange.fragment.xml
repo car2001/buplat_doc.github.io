@@ -1,0 +1,20 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+         
+            <Text class="text"            
+            text="Para eliminar un CC debe seleccionar el contenedor de la carpeta Open. Al hacer clic derecho al contenedor seleccionado se mostrará la opción de “Delete Change Container” y al hacer clic en esa opción se abrirá un popup donde se solicitará la confirmación para la eliminación del contenedor, al seleccionar la opción sí, se mostrará un mensaje indicándonos que se realizó el proceso correctamente. "/>
+
+            <Text class="text"
+            text="*Desde la tabla, se elimina un CC mediante el icono de DELETE."/>
+
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/EliminarChange.png" width="100%" class="image"></Image>
+            </FlexBox>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

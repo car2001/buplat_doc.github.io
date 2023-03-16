@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para ingresar a un workitems se tiene que hacer clic en el nombre de una actividad pendiente o activa, donde se mostrará una pantalla con el formulario para que esta se pueda realizar y completar. "/>
+             
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/IngresarActividad.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/IngresarActividad2.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

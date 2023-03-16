@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Un contenedor de cambios es un repositorio donde se almacenan todas las acciones en los componentes. Se guardará, ya sea una creación, modificación y/o eliminado de objetos de los diferentes componentes de las aplicaciones BUPLAT."/>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

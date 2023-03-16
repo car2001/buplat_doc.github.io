@@ -1,0 +1,60 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <VBox>
+        <FlexBox>
+            <Image src="./img/bienvenido.png" width="100%" class="image"></Image>
+        </FlexBox>
+        <l:BlockLayout>
+            <l:BlockLayoutRow>
+                <l:BlockLayoutCell
+                    title="Introducción"
+                    backgroundColorSet="ColorSet1"
+                    backgroundColorShade="ShadeA">
+                    <VBox>
+                        <core:Icon src="sap-icon://home" class="size1" color="#003366" />
+                        <Text text="Conozca más acerca de BUPLAT."></Text>
+                    </VBox> 
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell
+                    title="Aplicaciones"
+                    backgroundColorSet="ColorSet10"
+                    backgroundColorShade="ShadeB">
+                    <HBox>
+                        <core:Icon src="sap-icon://business-objects-mobile"  class="size1" color="#003366" />
+                    </HBox>
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell
+                    title="Versionamiento de Componentes"
+                    backgroundColorSet="ColorSet10"
+                    backgroundColorShade="ShadeD">
+                    <HBox>
+                        <core:Icon src="sap-icon://combine"  class="size1" color="#003366" />
+                    </HBox>
+                </l:BlockLayoutCell>
+            </l:BlockLayoutRow>
+        </l:BlockLayout>
+        <l:BlockLayout>
+            <l:BlockLayoutRow>
+                <l:BlockLayoutCell
+                    title="Dependencia de Componentes"
+                    backgroundColorSet="ColorSet10"
+                    backgroundColorShade="ShadeB">
+                    <HBox>
+                        <core:Icon src="sap-icon://share-2"  class="size1" color="#003366" />
+                    </HBox>
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell
+                    title="Entornos BUPLAT"
+                    backgroundColorSet="ColorSet11"
+                    backgroundColorShade="ShadeC">
+                    <HBox>
+                        <core:Icon src="sap-icon://manager"  class="size1" color="#003366"/>
+                    </HBox>
+                </l:BlockLayoutCell>
+            </l:BlockLayoutRow>
+        </l:BlockLayout>
+    </VBox> 
+</core:FragmentDefinition>

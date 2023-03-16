@@ -1,0 +1,24 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Como se mencionó anteriormente, la lista de actividades se mostrará de manera ascendente según su Creation Date, pero esto puede ser modificada mediante la opción “Sort”."/>
+            <Text class="text"            
+            text="Al hacer clic en el icono “Sort” se abrirá un popup donde se podrá seleccionar una opción de ordenamiento."/>
+            <Text class="text"            
+            text="El ordenamiento se podrá realizar de forma ascendente o descendente y tomando en cuenta una característica del workitem."/>
+            <Text class="text"            
+            text="Para poder reestablecer el orden por defecto hacemos clic en “Reset”."/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/OrdenarTabla.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,29 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="La aplicación Release Manager ayuda en la gestión de los cambios de la plataforma. A partir de estos servicios se podrá crear procesos específicos.  Se debe contar con un entorno que se dedique exclusivamente a realizar las instalaciones. "/>
+            <Text class="text"
+            text="Al acceder a la aplicación Release Manager veras la siguiente pantalla."/>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/ReleaseManager.png" width="100%" class="image"></Image>
+            </FlexBox>
+            <Text class="text"
+            text="Donde se observa los componentes de la aplicación como Project, Change Conteiner, Deployment Package y Deployment Request."/>
+            
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; Project &lt;/li &gt;
+                &lt;li &gt; Change Conteiner &lt;/li &gt;
+                &lt;li &gt; Deployment Package &lt;/li &gt;
+                &lt;li &gt; Deployment Request &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="En lista del Inbox se mostrará todos los Workitems activos que están asignados al usuario que está en sesión. Además, los workitems mostrarán la siguiente información: número de Instancia, referencia ID, project, nombre del proceso, la actividad, descripción, fecha de creación y fecha de vencimiento de la actividad."/>
+            <Text class="text" 
+            text="El orden en que se muestra la lista de los workitems por defecto, es desde la actividad más antigua hasta la más reciente según su Creation Date."/>
+            
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Inbox.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

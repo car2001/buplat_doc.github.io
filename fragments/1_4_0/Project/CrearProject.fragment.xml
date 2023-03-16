@@ -1,0 +1,34 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            
+            <Text class="text"            
+            text="Para asociar un proyecto a un proceso se debe crear un proyecto.
+            "/>
+            <Text class="text"            
+            text="Hacer clic derecho a la carpeta Project, y seleccionar la opción de New Project, se mostrará una pantalla solicitando los siguientes datos:
+            "/>
+            <core:HTML content='&lt;ul class="lista" &gt; 
+                
+                &lt;li &gt; Name (nombre) &lt;/li &gt;
+                &lt;li &gt; Display name (nombre para mostrar) &lt;/li &gt;
+                &lt;li &gt; Description (Descripción) &lt;/li &gt;
+                &lt;/ul &gt;'>
+            </core:HTML>
+            <FlexBox width="100%">
+                <Image src="img/Aplicaciones/CrearProject.png" width="100%" class="image"></Image>
+            </FlexBox>
+
+            <Text class="text" 
+            text="Para efectos de demostración de las funcionalidades de todas las aplicaciones se automatizará un proceso real en este caso “Solicitud de Vacaciones”. Por tanto, este proceso formará parte del proyecto “Gestión de Talento Humano”. A continuación, se debe seleccionar las fechas que indicará el tiempo que estará disponible el proyecto. Finalmente se habilitará la opción “Usable in Process” para que el proyecto pueda asociarse con un proceso y también se habilitará la opción “Usable in Release” para que el proyecto tenga un release."/>
+
+            <Text class="text" 
+            text="Al presionar el icono Save se creará el nuevo proyecto y para comprobar que la creación se hizo de manera correcta, verificamos que muestre el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”."/>
+                        
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

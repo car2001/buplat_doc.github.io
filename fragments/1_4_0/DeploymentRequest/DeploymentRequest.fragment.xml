@@ -1,0 +1,14 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+    
+            <Text class="text"
+            text="Deployment Request (DR) es una solicitud de despliegue, donde es el último paso para poder hacer desligues entre entornos. Aquí se almacenan el o los paquetes de despliegue que contienen contenedores de objetos de cambio que se hicieron al configurar procesos."/>
+
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

@@ -1,0 +1,31 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+
+         <Text class="text"    
+
+            text="Por cada unidad organizacional se puede agregar posiciones que se ejercen dentro de estas. "/>
+
+            <Text class="text"            
+            text="Para agregar una posición, se ingresará a la unidad organizacional creada, dentro de ésta encontraremos una carpeta llamada Position. Luego hacer clic derecho y al seleccionar New position se mostrará una pantalla solicitando los siguientes datos:   "/>
+
+             <core:HTML content='&lt;ul &gt; &lt;li &gt; Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt;  Display Name &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+            <core:HTML content='&lt;ul &gt; &lt;li &gt; Description(opcional) &lt;/li &gt; &lt;/ul &gt;'></core:HTML>
+
+            <Text class="text"    
+
+            text="Al presionar el icono Save estaremos creando una nueva posición. Para comprobar que la creación se hizo de manera correcta, debe mostrar el siguiente mensaje de confirmación: “The Operation has been Completed Successfully”. Por consiguiente, esta nueva creación, se listará dentro de la carpeta Position.  "/>
+            
+
+        <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Position.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

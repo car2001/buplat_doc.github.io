@@ -1,0 +1,21 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text=
+            "La función 'Activo para Asignación' permite que el usuario ya está listo para que se le asigne tareas y responsabilidades específicas de un proceso de negocio.Para que el usuario esté disponible para la asignación de actividades al correo, se tiene que activar la opción “Allocation”, caso contrario, el usuario no estará disponible para ser asignado a una tarea. Se recomienda que esta opción esté siempre activa.   " />
+
+           
+            
+
+         <FlexBox width="100%">
+                <Image src="img/Aplicaciones/Asignacion.JPG" width="100%" height ="100%" class="image"></Image>
+            </FlexBox>
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>

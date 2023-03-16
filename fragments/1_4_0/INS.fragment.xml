@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+	xmlns:core="sap.ui.core">
+    <Panel class="sapFDynamicPageAlignContent" width="auto">
+        <VBox class="sapUiSmallMargin">
+            <Text class="text"            
+            text="En BUPLAT un esquema de numeración de una instancia se utiliza para generar un número único y consecutivo para identificar de manera única una instancia específica de un proceso de negocio. El esquema de numeración de la instancia puede ser utilizado para hacer referencia a la instancia en diferentes partes del sistema, como en los informes y en el seguimiento del progreso del proceso.  "/>
+
+             <Text class="text"            
+            text="El esquema de numeración de la instancia se define de forma similar a un esquema de numeración normal, pero en lugar de generar números para elementos específicos del proceso de negocio (como facturas o pedidos), genera un número único para la instancia del proceso de negocio en sí. "/>
+
+             <Text class="text"            
+            text="El esquema de numeración de la instancia puede ser configurado para generar un número basado en un patrón específico, como un prefijo y un número base y el número generado se puede utilizar para identificar de manera única la instancia del proceso de negocio. "/>
+
+            <Text class="text"            
+            text="Al utilizar un esquema de numeración de la instancia, se puede asegurar que cada instancia del proceso de negocio tenga un número único y consecutivo, lo que puede facilitar su seguimiento y análisis posterior. Además, el esquema de numeración de la instancia puede ser reutilizado en diferentes procesos de negocio para generar números únicos para cada instancia. "/>
+
+
+            
+    
+            
+        </VBox>
+    </Panel>   
+</core:FragmentDefinition>
